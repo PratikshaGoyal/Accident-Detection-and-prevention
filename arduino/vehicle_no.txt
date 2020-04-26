@@ -1,0 +1,1 @@
+This file will contain the vehicle number of the vehicle of registered user.

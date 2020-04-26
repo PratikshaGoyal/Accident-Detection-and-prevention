@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:background="@color/colorBackground"
+        tools:context=".activities.LocationActivity">
+
+    <Button
+            android:id="@+id/btn_start_upds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorTextHint"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:text="Start Location Updates" />
+    <Button
+            android:enabled="false"
+            android:id="@+id/btn_stop_upds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorTextHint"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:text="Stop Location Updates" />
+
+
+    <TextView
+            android:padding="12dp"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtLat"
+    />
+    <TextView
+            android:padding="12dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtLong"
+    />
+    <TextView
+            android:layout_gravity="center_horizontal"
+            android:padding="12dp"
+            android:textSize="18sp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTime" />
+
+</LinearLayout>
